@@ -13,7 +13,7 @@ int sub(int i, int j) {
 
 namespace py = pybind11;
 
-PYBIND11_MODULE(cmake_example, m) {
+PYBIND11_MODULE(math_tool, m) {
     m.def("add", &add);
     m.def("sub", &sub);
 

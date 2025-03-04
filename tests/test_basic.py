@@ -1,4 +1,4 @@
-import cmake_example as m
+import math_tool as m
 
 
 def test_main():

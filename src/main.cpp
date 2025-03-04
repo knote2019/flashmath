@@ -15,7 +15,7 @@ namespace py = pybind11;
 
 PYBIND11_MODULE(cmake_example, m) {
     m.def("add", &add);
-    m.def("add", &sub);
+    m.def("sub", &sub);
 
 #ifdef VERSION_INFO
     m.attr("__version__") = MACRO_STRINGIFY(VERSION_INFO);

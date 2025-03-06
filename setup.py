@@ -115,7 +115,7 @@ setup(
     author_email="kenny@gmail.com",
     description="",
     long_description="",
-    ext_modules=[CMakeExtension("math_tool")],
+    ext_modules=[CMakeExtension("flashmath")],
     cmdclass={"build_ext": CMakeBuild},
     zip_safe=False,
     extras_require={"test": ["pytest>=6.0"]},
